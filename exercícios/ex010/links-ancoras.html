@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .principal {
+            font-family: 'Fredericka the Great';
+            font-weight: normal;
+        }
+
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: pink;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }  
+
+        .especial {
+            background: lightblue;
+        }
+
+        .especial:hover {
+            color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="principal">Usando links externos</h1>   
+    
+    <p>Você pode acessar o <a href="https://github.com/ricardosmotta" target="_blank" rel="external">meu repositório público no GibHub</a></p>
+
+    <p>Você também pode acessar o <a href="http://youtube.com/cursoemvideo" target="_blank" rel="external">canal do guanabara no Youtube</a></p>
+
+    <h2>Usando links internos</h2>
+
+    <p>Esta é a primeira págian do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página</a></p>
+
+    <p>Você também pode acessar a nossa <a href="notícias/pag003.html" rel="next" target="_self">página de notícias</a></p>
+
+    <h1>Links para download</h1>
+
+    <ul>
+        <li><a href="arquivos/10 - Ligações em toda parte.pdf" download="Ligações em toda parte.pdf" type="application/pdf">Baixar livro em PDF</a></li>
+
+        <li><a href="arquivos/10 - Ligações em toda parte.zip" download="Ligações em toda parte.zip" type="application/zip">Livro compactado em ZIP</a></li>
+
+    </ul>
+
+     <p>Faça seu <a href="arquivos/10 - Ligações em toda parte.pdf" download="ligações em toda parte.pdf" type="application/pdf" target="_blank" class="especial">download aqui.</a></p>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: maroon;
+            color: white;
+            padding: 3px;
+            text-align: center;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.514);
+        }
+
+        nav > a {
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 60px 0px;
+        }
+
+        div {
+            display: inline-block;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 2px;
+            border-radius: 60px 0px 60px 0px;
+        }
+
+        article > aside {
+            background-color: rgb(172, 168, 168);
+            padding: 0.1px 0.1px
+
+        }
+
+        .autor {
+            text-align: right;
+        }
+
+        footer {
+            background-color: rgb(26, 25, 25);
+            color: white;           
+            padding: 2px;
+            margin: 0px;
+        }
+
+        footer > div > p {
+            margin: 0px;
+        }
+
+        .footer1 {
+            font-weight: bold;
+        }
+
+        .footer2 {
+            display: flex;
+            font-weight: bold;
+            text-align: right;
+            justify-content: space-between;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: yellow;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site tá ficando bonito</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>                
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eum repellendus qui? Rerum odit ex suscipit commodi, asperiores iure consequatur molestias sint illum nulla inventore, minima dolor praesentium iusto modi?</p>
+                <aside>
+                    <p class="autor">Artigo escrito por Beltrano da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="footer1"><p>Todos os direitos reservados </p></div>
+        <div class="footer2"><p><a href="https://www.linked.com/in/ricardo-motta"> Desenvolvido por Ricardo Motta.</a></p></div>
+    </footer>
+</body>
+</html>
